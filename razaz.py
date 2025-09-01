@@ -72,7 +72,7 @@ LOGO = (f"""\r\r\x1b[1;97m
  \033[1;37m[•] AUTHOR     : \033[1;32mRAZA RATHOUR\033[1;37m
  \033[1;37m[•] GITHUB     : \033[1;32mRAZA -RATHOUR\033[1;37m
  \033[1;37m[•] YOUTUBE    : \033[1;32m@FUNZONCE\033[1;37m
- \033[1;37m[•] TOOL TYPE  : \033[1;32mRANDOM & OLD\033[1;37m
+ \033[1;37m[•] TOOL TYPE  : \033[1;32mTEMPMAIL\033[1;37m
  \033[1;37m[•] STATUS     : \033[1;32mPREMIUM\033[1;37m
  \033[1;37m--------------------------------------------------
  \033[1;37m[•] \033[1;37mVERSION    :\033[1;32m 1.0 \033[1;37m
@@ -162,5 +162,6 @@ if __name__ == "__main__":
         main_tool()
     else:
         sys.exit()
+
 
 
