@@ -115,7 +115,7 @@ def main_tool():
             
             clear_screen()
             show_logo()
-            print(f"Checking for mails to {temp_email}...")
+            print(f"Checking for mails to {temp_email}")
 
             for mail_id in mail_ids[::-1]:
                 status, msg_data = imap.fetch(mail_id, "(RFC822)")
@@ -150,8 +150,8 @@ def main_tool():
             imap.logout()
             
             if not mail_received:
-                print("No new mail yet. Checking again in 15 seconds...")
-                time.sleep(15)
+                print("No new mail yet. Checking again in 5 seconds...")
+                time.sleep(5)
         
         input("Mail receive ho gaya hai. Agla tempmail generate karne ke liye Enter dabayen...")
 
@@ -162,4 +162,5 @@ if __name__ == "__main__":
         main_tool()
     else:
         sys.exit()
+
 
